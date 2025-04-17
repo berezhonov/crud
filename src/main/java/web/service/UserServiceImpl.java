@@ -1,10 +1,9 @@
 package web.service;
 
 import web.dao.UserDao;
-import jakarta.transaction.Transactional;
 import web.model.User;
 import org.springframework.stereotype.Service;
-
+import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @Service
